@@ -8,13 +8,49 @@ body{
     background: #222;
 }
 .card{
-    width: 90%;
-    max-width: 470px;
+    width: 100%;
+    max-width: 500px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin:100 px auto 0;
+    margin:100px auto 0;
     border-radius: 20px;
     padding:40px 35px;
     text-align: center;
 
+}
+.search{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.search input{
+    height: 60px;
+    flex: 1;
+    margin-right: 16px;
+    padding:10px 25px;
+    border-radius: 30px;
+    border: 0;
+    color: #555;
+    flex : 1;
+    
+    outline: 0;
+    background: #ebfffc;
+    font-size: 18px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50% ;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+
+}
+.search button img{
+    width: 30px; 
+    border-radius: 50px;
+    
 }
